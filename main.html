@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Outfit&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="scripts.js"></script>
 </head>
 
 <body>
@@ -19,9 +20,12 @@
 
   <nav id="nav1">
     <div id="social-media">
-      <img class="social-icon" src="media/images/gmail.png" alt="gmail">
-      <img class="social-icon" src="media/images/insta.png" alt="insta">
-      <img class="social-icon" src="media/images/linkedin.png" alt="linkedin">
+      <a class="social-icon-container" target = "blank" href="mailto:anv1795@rit.edu">
+        <img class="social-icon" src="media/images/gmail.png" alt="gmail"></a>
+      <a class="social-icon-container" target = "blank" href="https://www.instagram.com/tanh21124/">
+        <img class="social-icon" src="media/images/insta.png" alt="insta"></a>
+      <a class="social-icon-container" target = "blank" href="https://www.linkedin.com/in/anh-vu-ritstudent">
+        <img class="social-icon" src="media/images/linkedin.png" alt="linkedin"></a>
     </div>
     <a href="#AnhVu-Sub" class="nav-text">work</a>
     <a href="#introduction" class="nav-text">about</a>
@@ -29,21 +33,24 @@
   </nav>
 
   
-  <nav id="nav2">
-    <div id="ham"> 
-      <img id="ham-img" src="media/images/ham.png" id="ham-menu">
-      <div id="nav2-links">
-        <div id="socil-media">
-          <img class="social-icon" src="media/images/gmail.png" alt="gmail">
-          <img class="social-icon" src="media/images/insta.png" alt="insta">
-          <img class="social-icon" src="media/images/linkedin.png" alt="linkedin">
+    <div class="nav2">
+      <a class="ham" onclick="myFunction()"><div class="icon"><img id="ham-img" src="media/images/ham.png"></div>
+      </a>
+      <a class="active"></a>
+      <div id="nav2Links">
+        <div id="social-media">
+          <a class="social-icon-container" target = "blank" href="mailto:anv1795@rit.edu">
+            <img class="social-icon" src="media/images/gmail.png" alt="gmail"></a>
+          <a class="social-icon-container" target = "blank" href="https://www.instagram.com/tanh21124/">
+            <img class="social-icon" src="media/images/insta.png" alt="insta"></a>
+          <a class="social-icon-container" target = "blank" href="https://www.linkedin.com/in/anh-vu-ritstudent">
+            <img class="social-icon" src="media/images/linkedin.png" alt="linkedin"></a>
         </div>
         <a href="#AnhVu-Sub" class="nav-text">work</a><br>
         <a href="#introduction" class="nav-text">about</a><br>
         <a href="#contact-main" class="nav-text">contact</a>
       </div>
     </div>
-  </nav>
 
   <div id="main">
 <!-- Works - image without description, 
@@ -51,42 +58,42 @@
   
 <!-- 1-3 best 3D models -->
 <!-- object position: x, y coordinates -->
-    <section class="flex-container">
+    <div class="flex-container">
       <div class="gallery">
         <a href="cat.html">
           <div class="container">
-          <img src="media/images/cat.jpg" alt="cat playing keyboard"
-          style="object-position: 100% 10%;">
-          <div class="description">Cat in Digital Era / 23</div>
+          <img src="media/images/cat-thumbnail.jpg" alt="cat playing keyboard"
+          style="object-position: 50% 10%;">
+          <div class="description">Contest Painting / 23</div>
           </div>
         </a>
       </div>
       <div class="gallery">
         <a href="man-burger.html">
           <div class="container">
-          <img src="media/images/burger-cycles.jpg" alt="man burger"
-          style="object-position: 100% 10%;">
-          <div class="description">Man Burger / 23</div>
+          <img src="media/images/man-burger-thumbnail.jpg" alt="man burger"
+          style="object-position: 50% 50%;">
+          <div class="description">3D Modeling / 23</div>
           </div>
         </a>
       </div>
       <div class="gallery">
         <a href="tiger-halloween.html">
           <div class="container">
-          <img src="media/images/tiger-halloween.jpg" alt="cat and bear comic"
-          style="object-position: 100% 50%;">
-          <div class="description">Halloween Tiger / 23</div>
+          <img src="media/images/tiger-halloween-thumbnail.jpg" alt="cat and bear comic"
+          style="object-position: 50% 50%;">
+          <div class="description">Editorial Illustration / 23</div>
           </div>
         </a>
       </div>
-    </section>
-    <section class="flex-container">
+    </div>
+    <div class="flex-container">
       <div class="gallery">
         <a href="pocketmonster.html">
           <div class="container">
           <img src="media/images/pocketmonster-thumbnail.jpg" alt="pocket monster"
-          style="object-position: 0 50%;">
-          <div class="description">Pocket Monster / 23</div>
+          style="object-position: 50% 50%;">
+          <div class="description">Monster Design/ 23</div>
           </div>
         </a>
       </div>
@@ -95,26 +102,46 @@
           <div class="container">
           <img src="media/images/pinkpark2.jpg" alt="pink park"
           style="object-position: 50% 50%;">
-          <div class="description">Pink Park Soda / 23</div>
+          <div class="description">Soda Branding/ 23</div>
           </div>
         </a>
       </div>
       <div class="gallery">
         <a href="catbear.html"> 
           <div class="container">
-          <img src="media/images/comic1.jpg" alt="Cat and Bear comic"
-          style="object-position: 0 10%;">
-          <div class="description">Cat & Bear Comics / 23</div>
+          <img src="media/images/catbear-thumbnail.jpg" alt="Cat and Bear comic"
+          style="object-position: 50% 50%;  ">
+          <div class="description">Comic Strips / 23</div>
           </div>
         </a>
       </div>
-    </section>
-    <section class="flex-container">
+    </div>
+    <div class="flex-container">
+      <div class="gallery">
+        <a href="pimples.html">
+          <div class="container">
+          <img src="media/images/pimples2.jpg" alt=""
+          style="object-position: 50% 50%;">
+          <div class="description">Animation / 23</div>
+          </div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="sleepyhollow.html">
+          <div class="container">
+          <img src="media/images/sleepy-hollow-thumbnail.jpg" alt="coffee"
+          style="object-position: 50% 50%;">
+          <div class="description">Audio Book Cover / 23</div>
+          </div>
+        </a>
+      </div>
+      </div>
+    <div class="flex-container">
       <div class="gallery">
         <a href="tet-tiger.html">
           <div class="container">
           <img src="media/images/tet-tiger.jpg" alt="tiger new year card"
-          style="object-position: 30% 10%;">
+          style="object-position: 50% 50%;">
           <div class="description">New Year's Card / 22</div>
           </div>
         </a>
@@ -123,36 +150,23 @@
         <a href="vsa-coffee.html">
           <div class="container">
           <img src="media/images/vsa-coffeee.jpg" alt="coffee"
-          style="object-position: 0 50%;">
-          <div class="description">VSA Coffee / 23</div>
+          style="object-position: 50% 50%;">
+          <div class="description">Coffee Poster / 23</div>
           </div>
         </a>
       </div>
       <div class="gallery">
-        <a href=".html">
+        <a href="ar-tiger.html">
           <div class="container">
-          <img src="media/images/tattoo.jpg" alt="pocket monster"
-          style="object-position: 0 10%;">
-          <div class="description">Pocket Monster / 23</div>
+          <img src="media/images/ar-tiger-thumbnail.jpg" alt="ar tiger animation"
+          style="object-position: 50% 50%;">
+          <div class="description">AR Animation / 23</div>
           </div>
         </a>
       </div>
-    </section>
-    
-<!-- 1-3 best Illustrations -->
-    <section>
-      <h2></h2>
-    </section>
-<!-- 1-3 best paid projects -->
-    <section>
-      <h2></h2>
-    </section>
-<!-- 1 best personal design -->
-    <section>
-      <h2></h2>
-    </section>
-
+    </div>
   </div>
+    
 
 
 <!-- ABOUT -->
@@ -161,44 +175,47 @@
   <div id="introduction">
   <h1>Hi, I'm Anh.</h1>
   <p>&#128073
-    I'm a student illustrator based in Rochester, NY who seeking for a Summer internship! <br><br>
+    I'm a student based in Rochester, NY, who is seeking a summer internship!<br><br>
     &#128396;			
-  I create character designs, illustrations, and animations for
-  organizations' products and social media posts. I also do a lot of personal things. <br><br>
+    I create character designs, illustrations, and animations for organizations' 
+    products and social media posts.<br><br>
     &#128299;	
-    I spend my spare time on self-taught graphic design, 3D modeling, UI design, and video editing
-    to expand my artistic vision.
-  I love to play along with my instruments.
+    I usually spend my spare time on self-taught stuff ranging from 3D 
+    models to UI design to fulfill my curiosity and expand my artistic vision. 
+    I enjoy making silly little projects to amuse people.
   </p>
   <h1>my expertises.</h1>
-  <ul>
-    <li>Illustration</li>
-    <li>Character Design</li>
-    <li>Comic</li>
-    <li>Graphic Design</li>
-    <li>UI Design</li>
-    <li>Animation</li>
-  </ul>
+  <div class="skills">
+    <p class="skills-box">Illustration</p>
+    <p class="skills-box">Character Design</p>
+    <p class="skills-box">Comic</p>
+    <p class="skills-box">Graphic Design</p>
+    <p class="skills-box">UI Design</p>
+    <p class="skills-box">Animation</p>
+    <p class="skills-box">3D Model</p>
+  </div>
   <h1>my digital tool box.</h1>
-  <ul>
-    <li>Illustrator</li>
-    <li>Photoshop</li>
-    <li>InDesign</li>
-    <li>After Effects</li>
-    <li>Figma</li>
-    <li>Procreate</li>
-    <li>Blender</li>
-  </ul>
+    <img class="skills-icon" src="media/images/icon-ai.png" alt="illustrotor">
+    <img class="skills-icon" src="media/images/icon-id.png" alt="illustrotor">
+    <img class="skills-icon" src="media/images/icon-pr.png" alt="illustrotor">
+    <img class="skills-icon" src="media/images/icon-ps.png" alt="illustrotor">
+    <img class="skills-icon" src="media/images/icon-procreate.png" alt="illustrotor">
+    <img class="skills-icon" src="media/images/icon-blender.png" alt="illustrotor">
+  <h1>languages.</h1>
+  <p class="skills-box">English</p>
+  <p class="skills-box">Vietnamese</p>
   </div>
 </div>
-
 <!-- CONTACT -->
 <div id="contact-main">
 
-  <div>
-    <img class="social-icon-large" src="media/images/gmail.png" alt="gmail">
-    <img class="social-icon-large" src="media/images/insta.png" alt="insta">
-    <img class="social-icon-large" src="media/images/linkedin.png" alt="linkedin">
+  <div id="social-media-large">
+    <a class="social-icon-container" target = "blank" href="mailto:anv1795@rit.edu">
+      <img class="social-icon-large" src="media/images/gmail.png" alt="gmail"></a>
+    <a class="social-icon-container" target = "blank" href="https://www.instagram.com/tanh21124/">
+      <img class="social-icon-large" src="media/images/insta.png" alt="insta"></a>
+    <a class="social-icon-container" target = "blank" href="https://www.linkedin.com/in/anh-vu-ritstudent">
+      <img class="social-icon-large" src="media/images/linkedin.png" alt="linkedin"></a>
   </div>
     <h1>Or</h1>
     <h2>send me a message :></h2>
@@ -209,8 +226,7 @@
       <textarea id="message" class="box" placeholder="Your Message" name="message" required></textarea><br><br> 
       <input type="submit" class="box" value="Send"> 
     </form></div>
-  </div>
-
+</div>
 
   <footer>
     <div id="copyright">
