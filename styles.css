@@ -316,6 +316,12 @@ div.gallery:hover .description {
 ::-ms-input-placeholder { 
   color: #F5EFE8;
 }
+#resume {
+  color: #F6378F;
+}
+#resume:hover {
+  opacity: 50%;
+}
 
 #contact-form {
   border: 2px solid #FFDD00;
