@@ -157,6 +157,9 @@ body {
 }
 
 /* GALLERY */
+#main {
+  margin-top: 1%;
+}
 .flex-container {
   display: flex;
   overflow: hidden;
@@ -264,7 +267,7 @@ div.gallery:hover .description {
 #introduction {
   color: #F6378F;
   width: 45%;
-  padding: 10% 5% 10% 10%;
+  padding: 5% 11% 5% 11%;
   font-size: large;
 }
 
@@ -284,6 +287,12 @@ div.gallery:hover .description {
   display: inline;
   height: 45px;
   padding: 5px;
+}
+#resume {
+  color: #F6378F;
+}
+#resume:hover {
+  opacity: 50%;
 }
 
 /* Contact form */
@@ -315,12 +324,6 @@ div.gallery:hover .description {
 }
 ::-ms-input-placeholder { 
   color: #F5EFE8;
-}
-#resume {
-  color: #F6378F;
-}
-#resume:hover {
-  opacity: 50%;
 }
 
 #contact-form {
