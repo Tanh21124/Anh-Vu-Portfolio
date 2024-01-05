@@ -180,7 +180,7 @@ div.gallery {
   height: 390px;
   overflow: hidden;
   margin: 0.5vw;
-  border-radius: 28px 28px;
+  border-radius: 10px 10px;
 }
 div.gallery img {
   display: block;
@@ -328,11 +328,11 @@ div.gallery:hover .description {
 
 #contact-form {
   border: 2px solid #FFDD00;
-  padding: 4%;
+  padding: 3.5%;
   margin: 0 auto;
   position: relative;
   width: 45%;
-  border-radius: 35px;
+  border-radius: 10px;
 }
 
 input[type=submit] {
