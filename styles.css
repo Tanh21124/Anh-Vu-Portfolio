@@ -1,5 +1,5 @@
 body {
-  background-color: #F5EFE8;
+  background-color: #FFFFFF;
   background-attachment: fixed;
   font-family: 'Outfit', sans-serif;
   line-height: 1.5;
@@ -9,9 +9,7 @@ body {
 }
 
 .btn {
-  color: #F6378F;
-  border: none;
-  background-color: #FFDD00;
+  border: 2px solid #5272F2;
   padding: 5px;
   font-size: 20px;
   cursor: pointer;
@@ -22,17 +20,17 @@ body {
 }
 
 #AnhVu-Head {
-  color: #F6378F;
+  color: #5272F2;;
   margin-left: auto;
   margin-right: auto;
-  padding: 5%;
+  padding: 15%;
   text-align: center;
 }
 #logo-head {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 260px;
+  width: 350px;
 }
 @keyframes rotation {
   from {
@@ -57,7 +55,7 @@ body {
   line-height: 0;
 }
 #head-text {
-  font-family: 'Hedvig Letters Serif', serif;
+  font-family: 'Outfit', sans-serif;
   display: block;
   text-align: center;
   font-size: 28px;
@@ -65,21 +63,16 @@ body {
 
 #sub-logo {
   display: inline-block;
-  animation: rotation 20s infinite linear;
+  padding: 15px;
 }
-#anhvu-sub-text {
-  color: #F6378F;
-  padding: 10px;
-  display: inline-block;
-  font-size: 26px;
-}
+
 
 
 /* NAV LINKS */
 #nav-work {
   z-index: 1;
   border: none;
-  background-color: #FFDD00;
+  background-color: #FBECB2;
   padding: 3px;
   font-size: 20px;
   position: sticky;
@@ -139,7 +132,7 @@ body {
     float: right;
     padding: 10px;
     cursor: pointer;
-    background: #FFDD00;
+    background: #FBECB2;
   }
   .ham {
     display: block;
@@ -154,13 +147,13 @@ body {
   letter-spacing: 0.5px;
 }
 .nav-text:link, .btn:link {
- color: #F6378F;
+ color: #5272F2;
 }
 .nav-text:visited, .btn:visited {
-  color: #F6378F;
+  color: #5272F2;
 }
 .nav-text:active, .btn:active {
-  color: #F6378F;
+  color: #5272F2;
   transition-duration: 0.5s;
 }
 .nav-text:after, .btn:after {
@@ -170,7 +163,7 @@ body {
   height: 3px;
   width: 0;
   left: 0;
-  background-color: #F6378F;
+  background-color: #5272F2;
   transition: width 0.3s ease;
 }
 .nav-text:hover:after, .btn:hover:after {
@@ -226,8 +219,8 @@ div.gallery:hover img {
   bottom: 0; left: 0;
   padding: 10px 0 10px 0;
   text-align:center;
-  color: #F5EFE8;
-  background-color: #F6378F;
+  color: #5272F2;;
+  background-color: #5272F2;;
   width: 120%;
   display: none;
 }
@@ -245,13 +238,13 @@ div.gallery:hover .description {
 }
 .work-title{
   font-size: 50px;
-  color: #F6378F;
+  color: #5272F2;;
 }
 .work-medium{
-  color: #F6378F;
+  color: #5272F2;;
 }
 .work-description{
-  color: #F6378F;
+  color: #5272F2;;
   line-height: 1.5;
 }
 .work-image {
@@ -259,7 +252,7 @@ div.gallery:hover .description {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: 222831;
 }
 .mu {
   display: inline-block;
@@ -267,12 +260,12 @@ div.gallery:hover .description {
 }
 ::backdrop
 {
-    background-color: rgba(0,0,0,0.94);
+    background-color: 222831;
 }
 
 /* ABOUT */
 #about-main {
-  background-color:#F5EFE8;
+  background-color:#F8BDEB;
   margin: 0 auto;
   display: flex;
   overflow: hidden;
@@ -285,7 +278,7 @@ div.gallery:hover .description {
   animation: rotation 20s infinite linear;
 }
 #introduction {
-  color: #F6378F;
+  color: #072541;
   width: 45%;
   padding: 5% 11% 5% 11%;
   font-size: large;
@@ -309,7 +302,7 @@ div.gallery:hover .description {
   padding: 5px;
 }
 #resume {
-  color: #F6378F;
+  color: #5272F2;
 }
 #resume:hover {
   opacity: 50%;
@@ -317,9 +310,9 @@ div.gallery:hover .description {
 
 /* Contact form */
 #contact-main {
-  background-color: #8EA5EB;
+  background-color: #072541;
   margin: 0 auto;
-  color: #FFDD00;
+  color: #EEEEEE;
   line-height: 1.0;
   padding: 20px;
   font-size: 20px;
@@ -328,8 +321,8 @@ div.gallery:hover .description {
 }
 .box {
   width: 80%;
-  border: 2px solid #FFDD00;
-  color: #FFDD00;
+  border: 2px solid #EEEEEE;
+  color: #EEEEEE;
   background: transparent;
   font-family: 'Outfit', sans-serif;
   font-size: 18px;
@@ -347,7 +340,7 @@ div.gallery:hover .description {
 }
 
 #contact-form {
-  border: 2px solid #FFDD00;
+  border: 2px solid #FBECB2 ;
   padding: 3.5%;
   margin: 0 auto;
   position: relative;
@@ -356,10 +349,10 @@ div.gallery:hover .description {
 }
 
 input[type=submit] {
-  color: #8EA5EB;
+  color: #072541;
   border: none;
   margin-top: 15px;
-  background-color: #FFDD00;
+  background-color: #FBECB2;
   padding: 10px;
   font-size: 20px;
   cursor: pointer;
@@ -437,7 +430,6 @@ input[type=submit]:active {
   }
 
   #about-main {
-    background-color:#F5EFE8;
     margin: 0 auto;
     display: block;
     overflow: hidden;
@@ -458,6 +450,6 @@ input[type=submit]:active {
 footer {
   padding: 5%;
   text-align: center;
-  background-color: #8EA5EB;
+  background-color: #072541;
   color: #F5EFE8;
 }
