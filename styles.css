@@ -76,7 +76,7 @@ body {
 
 
 /* NAV LINKS */
-#nav1, #nav-work {
+#nav-work {
   z-index: 1;
   border: none;
   background-color: #FFDD00;
@@ -120,10 +120,31 @@ body {
   width: 55px;
   cursor: pointer;
 }
-
+/* TABLE OF CONTENTS */
 .nav2 {
-  display: none;
-}
+  z-index: 2;
+  width: 200px;
+  float: right;
+  position: sticky;
+  top: 0px;
+  padding: 0 10px 0 0;
+  display: block;
+  overflow: hidden;
+  }
+  #nav2Links {
+    display: none;
+  }
+  #ham-img {
+    width: 50px;
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    background: #FFDD00;
+  }
+  .ham {
+    display: block;
+    position: sticky;
+  }
 .nav-text, .a-visiting, .btn {
   display: inline-block;
   font-size: 20px;
@@ -234,11 +255,10 @@ div.gallery:hover .description {
   line-height: 1.5;
 }
 .work-image {
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
 .mu {
@@ -401,31 +421,7 @@ input[type=submit]:active {
     width: 90vw;
     height: 319px;
   }
-  #nav1 {
-    display: none;
-  }
-  .nav2 {
-  z-index: 2;
-  position: sticky;
-  top: 0px;
-  padding: 0 10px 0 0;
-  display: block;
-  overflow: hidden;
-  }
-  #nav2Links {
-    display: none;
-  }
-  #ham-img {
-    width: 10%;
-    float: right;
-    padding: 10px;
-    cursor: pointer;
-    background: #FFDD00;
-  }
-  .ham {
-    display: block;
-    position: sticky;
-  }
+
   .social-icon {
     width: 35px;
   }
