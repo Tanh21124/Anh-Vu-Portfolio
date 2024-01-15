@@ -30,7 +30,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 350px;
+  width: 250px;
+  justify-content: center;
 }
 @keyframes rotation {
   from {
@@ -400,6 +401,9 @@ input[type=submit]:active {
 }
 
 @media (max-width: 700px) {
+  #logo-head {
+    width: 100%;
+  }
   .flex-container {
     display: flex;
     overflow: hidden;
