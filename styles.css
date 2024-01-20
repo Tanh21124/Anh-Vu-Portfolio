@@ -291,11 +291,16 @@ div.gallery:hover .description {
   justify-content: space-around;
 }
 .skills-box {
+  text-decoration: none;
+  color:#072541;
   display: inline;
   border: solid 2px;
   border-radius: 20px;
   padding: 5px;
   line-height: 2.5;
+}
+.skills-box:hover {
+  color: #5272F2;
 }
 .skills-icon {
   display: inline;
