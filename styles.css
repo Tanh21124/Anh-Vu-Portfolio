@@ -254,6 +254,7 @@ div.gallery:hover .description {
   margin-right: auto;
   padding: 0;
   background-color: 222831;
+  cursor: pointer;
 }
 .mu {
   display: inline-block;
