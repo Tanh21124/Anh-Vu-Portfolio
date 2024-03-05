@@ -76,7 +76,6 @@ body {
   border: none;
   background-color: #FBECB2;
   padding: 3px;
-  position: sticky;
   top: 0px;
   display: flex;
   align-items: center;
@@ -116,12 +115,12 @@ body {
 }
 /* TABLE OF CONTENTS */
 .nav2 {
-  z-index: 2;
-  width: 200px;
-  float: right;
-  position: sticky;
-  top: 0px;
-  padding: 0 10px 0 0;
+  position: fixed;
+  z-index: 10;
+  width: 20%;
+  right: 0; 
+  top: 0; 
+  padding: 0;
   display: block;
   overflow: hidden;
   }
@@ -131,7 +130,7 @@ body {
   #ham-img {
     width: 50px;
     float: right;
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
     background: #FBECB2;
   }
@@ -141,7 +140,7 @@ body {
   }
 .nav-text, .a-visiting, .btn {
   display: inline-block;
-  font-size: 20px;
+  font-size: 30px;
   position: relative;
   text-decoration: none;
   transition: color 0.5s;
@@ -225,6 +224,7 @@ div.gallery:hover .description {
 
 /* WORKS */
 .work {
+  z-index: -1;
   margin: auto;
   width: 80%;
   text-align: center;
@@ -407,6 +407,9 @@ input[type=submit]:active {
     flex-direction: column;
     align-items: center;
   }
+  .nav2 {
+    width: 100%;
+    }
   div.gallery {
     padding: 1% 0 1% 0;
   }
