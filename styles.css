@@ -21,10 +21,9 @@ body {
 }
 
 #AnhVu-Head {
-  color: #5272F2;;
   margin-left: auto;
   margin-right: auto;
-  padding: 15%;
+  padding: 5%;
   text-align: center;
 }
 #logo-head {
@@ -34,13 +33,23 @@ body {
   width: 250px;
   justify-content: center;
 }
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }}
+
+.nav-index {
+  color: #7f1268 ;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5%;
+}
+.nav-index:hover {
+  color: #e7abdb ;
+}
+.nav-index:visited {
+  color: #7f1268 ;
+}
+.nav-index:active {
+  color: #7f1268 ;
+}
 
 #AnhVu-Sub {
   display: flex;
