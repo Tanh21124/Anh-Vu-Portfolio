@@ -311,8 +311,8 @@ div.gallery:hover .description {
   background-color: #072541;
   margin: 0 auto;
   color: #EEEEEE;
-  line-height: 1.0;
-  padding: 20px;
+  line-height: 0.7;
+  padding: 10px;
   font-size: 25px;
   text-align: center;
   justify-content: center;
@@ -327,7 +327,7 @@ div.gallery:hover .description {
   border-top: none;
   border-left: none;
   border-right: none;
-  padding: 5px;
+  padding: 4.5px;
 }
 ::placeholder {
   color: #F5EFE8;
@@ -339,7 +339,7 @@ div.gallery:hover .description {
 
 #contact-form {
   border: 2px solid #FBECB2 ;
-  padding: 3.5%;
+  padding: 3%;
   margin: 0 auto;
   position: relative;
   width: 45%;
@@ -452,7 +452,7 @@ input[type=submit]:active {
 }
 
 footer {
-  padding: 5%;
+  padding: 3%;
   text-align: center;
   background-color: #072541;
   color: #F5EFE8;
