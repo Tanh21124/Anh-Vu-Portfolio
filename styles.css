@@ -442,15 +442,15 @@ input[type=submit]:active {
   .description {
     display: block;
   }
-  .work-image {
-
-  }
 
   #about-main {
     margin: 0 auto;
     display: block;
     overflow: hidden;
     justify-content: center;
+  }
+  #contact-main {
+    line-height: 1.0;
   }
   #contact-form {
     padding: 5%;
