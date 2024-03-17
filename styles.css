@@ -270,6 +270,10 @@ div.gallery:hover .description {
 
 /* ABOUT */
 #about-main {
+  background-image: url("media/images/bgpink.jpeg");
+  background-repeat: no-repeat;  
+  background-position: 0% 0%;
+  background-size: 100% auto;             /* optional, center the image */
   background-color:#F8BDEB;
   margin: 0 auto;
   display: flex;
@@ -321,6 +325,10 @@ div.gallery:hover .description {
 
 /* Contact form */
 #contact-main {
+  background-image: url("media/images/bgblue.jpeg");
+  background-repeat: no-repeat;  
+  background-position: 0% 0%;
+  background-size: 100% auto;  
   background-color: #072541;
   margin: 0 auto;
   color: #FBECB2;
