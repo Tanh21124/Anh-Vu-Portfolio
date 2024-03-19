@@ -47,7 +47,7 @@ body {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 35%;
 }
 .nav-index:hover {
   opacity: 50%;
@@ -202,7 +202,7 @@ div.gallery {
 }
 .container {
   text-decoration: none;
-  padding: 5px;
+  padding: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
