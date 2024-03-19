@@ -29,14 +29,13 @@ body {
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
-  padding: 4.7%;
   text-align: center;
 }
 #logo-head {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 15%;
   justify-content: center;
 }
 
