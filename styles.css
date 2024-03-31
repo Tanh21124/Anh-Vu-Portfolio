@@ -33,21 +33,45 @@ body {
 }
 #logo-head {
   display: block;
+  margin: 2.8%;
   margin-left: auto;
   margin-right: auto;
   width: 15%;
   justify-content: center;
 }
+.container {
+  position: relative;
+  display: flexbox;
+  height: 390px;
+  overflow: hidden;
+  border: 1px solid #072541;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+  background-position: 50%, 50%;
+} 
+.index.img{
+  width: 100px; 
+  height: 100px; 
+  object-fit: contain;
+  overflow: hidden;
+}
+.index-text{
+color: #FFFFFF;
+background-color: #072541;
+padding: 0;
+margin: 0;
+}
+
 
 .nav-index {
   color: #072541 ;
   font-size: 16px;
   text-decoration: none;
-  display: block;
-  padding: 0;
+  display: inline-block;
+  padding: 0.5%;
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
+  width: 15%;
 }
 .nav-index:hover {
   opacity: 50%;
@@ -57,6 +81,19 @@ body {
 }
 .nav-index:active {
   opacity: 30%;
+}
+
+.nav1{
+  display: flex;
+  position: sticky;
+  top:3%;
+  font-size: 2px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #AnhVu-Sub {
@@ -74,9 +111,12 @@ body {
 }
 #head-text {
   font-family: 'Outfit', sans-serif;
+  margin-top: 0;
+  padding: 0;
   display: block;
   text-align: center;
-  font-size: 25px;
+  font-size: 34px;
+  color: #F6378F;
 }
 
 #sub-logo {
@@ -125,13 +165,13 @@ body {
 }
 /* TABLE OF CONTENTS */
 .nav2 {
+  display: none;
   position: fixed;
   z-index: 10;
   width: 20%;
   right: 0; 
   top: 0; 
   padding: 0;
-  display: block;
   overflow: hidden;
   }
   #nav2Links {
@@ -150,7 +190,7 @@ body {
   }
 .nav-text, .a-visiting, .btn {
   display: inline-block;
-  font-size: 26px;
+  font-size: 14px;
   position: relative;
   text-decoration: none;
   transition: color 0.5s;
@@ -199,13 +239,6 @@ body {
 }
 div.gallery {
   padding: 0;
-}
-.container {
-  text-decoration: none;
-  padding: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 div.gallery:hover img {
@@ -325,11 +358,6 @@ div.gallery:hover .description {
 
 /* Contact form */
 #contact-main {
-  background-image: url("media/images/bgblue.jpeg");
-  background-repeat: no-repeat;  
-  background-position: 0% 0%;
-  background-size: 100% auto;  
-  background-color: #072541;
   margin: 0 auto;
   color: #FBECB2;
   line-height: 0.5;
@@ -363,7 +391,7 @@ div.gallery:hover .description {
   padding: 3%;
   margin: 0 auto;
   position: relative;
-  width: 45%;
+  width: 35%;
   border-radius: 10px;
 }
 
@@ -388,13 +416,27 @@ input[type=submit]:active {
 
 /* MEDIA QUERY */
 @media (max-width: 1000px) {
+  .nav-index {
+    color: #072541 ;
+    font-size: 16px;
+    width: 100%;
+  }
+  .nav1{
+    display: none;
+  }
+  .nav2{
+    display: block;
+    width: 100%;
+  }
+  .nav-text{
+    font-size: 26px;
+  }
   .flex-container {
     display: flex;
     overflow: hidden;
     flex-direction: row;
     justify-content: center;
   }
-
 .work {
   width: 60%;
 }
@@ -426,9 +468,6 @@ input[type=submit]:active {
     flex-direction: column;
     align-items: center;
   }
-  .nav2 {
-    width: 100%;
-    }
   div.gallery {
     padding: 1% 0 1% 0;
   }
@@ -468,6 +507,5 @@ input[type=submit]:active {
 footer {
   padding: 3%;
   text-align: center;
-  background-color: #072541;
-  color: #F5EFE8;
+  color: #8EA5EB;
 }
