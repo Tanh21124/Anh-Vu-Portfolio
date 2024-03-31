@@ -86,6 +86,7 @@ img, h1, h2, h3, p {
   height: 100px; 
   object-fit: contain;
   overflow: hidden;
+  object-position: 60% 10%; /* mix and match */
 }
 .index-text{
 color: #FFFFFF;
@@ -500,6 +501,9 @@ input[type=submit]:active {
   #logo-head {
     width: 30%;
     margin-top: 2%;
+  }
+  .container{
+    height: 150px;
   }
   .flex-container {
     display: flex;
