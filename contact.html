@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anh Vu</title>
+  <link rel="icon" type="image/x-icon" href="media/images/logo-icon.png" sizes="16x16">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body style="background-image: url('media/images/bgblue.jpeg');
+background-repeat: no-repeat;  
+background-position: 0% 0%;
+background-size: 100% auto;  
+background-color: #072541;;">
+  <header>
+    <a href="index.html"><div id="AnhVu-Sub"><img id="sub-logo" src="media/images/logo.png" width="160px"></div></a>
+    <!-- <h2 id="head-text">Illustration & Art Direction</h2> -->
+  </header>
+
+  <div class="nav1">
+    <a href="about.html" class="nav-text">ABOUT</a><br>
+    <a href="index.html" class="nav-text">WORK</a><br>
+    <a href="contact.html" class="nav-text">CONTACT</a>
+  </div>
+  
+    <div class="nav2">
+      <a class="ham" onclick="myFunction()"><div class="icon"><img id="ham-img" src="media/images/ham.png"></div>
+      </a>
+      <a class="active"></a>
+      <div id="nav2Links">
+        <a href="#illustration" class="nav-text">work</a><br>
+        <a href="#introduction" class="nav-text">about</a><br>
+        <a href="#contact-main" class="nav-text">contact</a>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+<div id="contact-main">
+  <div id="social-media-large">
+    <a class="social-icon-container" target = "blank" href="mailto:anv1795@rit.edu">
+      <img class="social-icon-large" src="media/images/gmail.png" alt="gmail"></a>
+    <a class="social-icon-container" target = "blank" href="https://www.instagram.com/tanh21124/">
+      <img class="social-icon-large" src="media/images/insta.png" alt="insta"></a>
+    <a class="social-icon-container" target = "blank" href="https://www.linkedin.com/in/anh-vu-ritstudent">
+      <img class="social-icon-large" src="media/images/linkedin.png" alt="linkedin"></a>
+  </div>
+    <div id="contact-form">
+    <form action="https://formsubmit.co/anv1795@rit.edu" method="POST"> 
+      <input type="text" class="box" placeholder="Your Name" id="name" name="name" required><br><br> 
+      <input type="email" class="box" placeholder="Your Email" id="email" name="email" required><br><br> 
+      <textarea id="message" class="box" placeholder="Your Message" name="message" required></textarea><br><br> 
+      <input type="submit" class="box" value="Send"> 
+    </form></div>
+</div>
+
+
+
+  <footer>
+    <img class="work-image" src="media/gifs/catplaying.gif" width="30%">
+    <div id="copyright">
+    &copy; 2023 Anh Vu All Rights Reserved <br>
+    No reproduction or republication without written permission.
+    </div>
+  </footer> 
+  </body>
+  </html>
